@@ -1,0 +1,6 @@
+@Cvl.Training.SmsEmailSender.Api_HostAddress = http://localhost:5289
+
+GET {{Cvl.Training.SmsEmailSender.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

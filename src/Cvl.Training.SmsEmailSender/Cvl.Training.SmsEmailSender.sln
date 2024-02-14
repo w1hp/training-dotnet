@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cvl.Training.SmsEmailSender.Core", "Cvl.Training.SmsEmailSender.Core\Cvl.Training.SmsEmailSender.Core.csproj", "{E973646C-F97B-47CD-ABAD-037E6555B3E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cvl.Training.SmsEmailSender.Infrastructure", "Cvl.Training.SmsEmailSender.Infrastructure\Cvl.Training.SmsEmailSender.Infrastructure.csproj", "{82DDB7A4-80D6-4A87-A317-38CC08E0D1E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cvl.Training.SmsEmailSender.Api", "Cvl.Training.SmsEmailSender.Api\Cvl.Training.SmsEmailSender.Api.csproj", "{4BDF3D15-8B7F-4A8E-A6E2-F73E3A4F3D4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E973646C-F97B-47CD-ABAD-037E6555B3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E973646C-F97B-47CD-ABAD-037E6555B3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E973646C-F97B-47CD-ABAD-037E6555B3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E973646C-F97B-47CD-ABAD-037E6555B3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DDB7A4-80D6-4A87-A317-38CC08E0D1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DDB7A4-80D6-4A87-A317-38CC08E0D1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DDB7A4-80D6-4A87-A317-38CC08E0D1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DDB7A4-80D6-4A87-A317-38CC08E0D1E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDF3D15-8B7F-4A8E-A6E2-F73E3A4F3D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDF3D15-8B7F-4A8E-A6E2-F73E3A4F3D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDF3D15-8B7F-4A8E-A6E2-F73E3A4F3D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDF3D15-8B7F-4A8E-A6E2-F73E3A4F3D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB13F9C9-F1A4-4C15-B232-CFA5624DA543}
+	EndGlobalSection
+EndGlobal
