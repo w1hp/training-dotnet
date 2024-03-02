@@ -15,6 +15,7 @@ namespace Cvl.Training.SmsEmailSender.Infrastructure.Database
         private readonly string? _connectionString;
 
         public DbSet<Sms> Sms { get; set; } = null!;
+        public DbSet<Email> Email { get; set; } = null!;
         public SmsEmailDbContext(DbContextOptions<SmsEmailDbContext> options) : base(options)
         {
         }
