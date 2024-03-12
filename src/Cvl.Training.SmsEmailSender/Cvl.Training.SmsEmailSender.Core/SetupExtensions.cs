@@ -12,6 +12,7 @@ public static class SetupExtensions
         services.AddScoped<ISmsService, SmsService>();
         services.AddScoped<ISmsSenderService, SmsSenderService>();
         services.AddScoped<ISmsSynchronousService, SmsSynchronousService>();
+        services.AddScoped<INipService, NipService>();
 
 
         return services;
